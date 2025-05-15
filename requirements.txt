@@ -1,0 +1,3 @@
+# Framework de tests
+unittest-xml-reporting==3.0.4 
+coverage==7.2.7
