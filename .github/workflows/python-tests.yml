@@ -64,5 +64,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=nicolas-castro92
-            -Dsonar.projectKey=nicolas-castro92_python-artefactos
+            -Dsonar.organization=semillerosolid
+            -Dsonar.projectKey=SemilleroSOLID_python-flow
