@@ -11,3 +11,6 @@ def div(a,b):
 
 def multi(a,b):
     return a*b
+
+def poten(a,b):
+    return a**b
