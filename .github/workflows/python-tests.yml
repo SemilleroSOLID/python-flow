@@ -34,9 +34,9 @@ jobs:
       - name: Ejecutar tests con cobertura
         run: |
           mkdir -p test-results
-          coverage run --source=app -m xmlrunner discover -s tests -o test-results || true
-          coverage xml -o coverage.xml || true
-          coverage html -d coverage_html || true
+          coverage run --source=app -m xmlrunner discover -s tests -o test-results
+          coverage xml -o coverage.xml
+          coverage html -d coverage_html
 
       - name: Subir reportes como artefacto
         if: always()
