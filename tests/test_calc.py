@@ -6,6 +6,7 @@ class TestCalc(unittest.TestCase):
     def test_suma(self):
         self.assertEqual(suma(2, 3), 5)
         self.assertEqual(suma(2, 4), 6)
+        self.assertEqual(suma(2, 5), 7)
 
     def test_resta(self):
         self.assertEqual(resta(5, 2), 3)
