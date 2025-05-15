@@ -29,7 +29,7 @@ jobs:
       - name: Ejecutar tests con cobertura
         run: |
           mkdir -p test-results
-          coverage run -m xmlrunner discover -s tests -o test-results || true
+          coverage run --source=app -m xmlrunner discover -s tests -o test-results || true
           coverage xml -o coverage.xml || true
           coverage html -d coverage_html || true
 
