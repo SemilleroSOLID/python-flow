@@ -1,4 +1,4 @@
-# 🐍 Python Unittest + Coverage + GitHub Actions
+<!-- # 🐍 Python Unittest + Coverage + GitHub Actions
 
 Bienvenido a la documentación del proyecto **Python Flow**.  
 Este repositorio implementa una estructura básica para proyectos Python con pruebas automáticas, integración continua, cobertura de código y buenas prácticas de GitFlow.
@@ -29,4 +29,10 @@ Este repositorio implementa una estructura básica para proyectos Python con pru
 │   └── test_nueva.py    # Pruebas para nueva_func.py
 │
 ├── requirements.txt     # Dependencias
-├── .github/workflows/   # CI/CD en GitHub Actions
+├── .github/workflows/   # CI/CD en GitHub Actions -->
+
+# Documentación del Workflow CI/CD
+
+Bienvenido a la documentación detallada del workflow de GitHub Actions para este proyecto.
+
+Usa el menú lateral para navegar entre las secciones y entender cada paso.

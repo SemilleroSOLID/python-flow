@@ -1,0 +1,15 @@
+site_name: Documentación Workflow CI/CD
+nav:
+  - Inicio: index.md
+  - Flujo CI/CD: ci_cd.md
+  - Pasos del Workflow:
+      - Checkout: steps/checkout.md
+      - Setup Python: steps/setup_python.md
+      - Instalar Dependencias: steps/install_deps.md
+      - Ejecutar Tests con Cobertura: steps/run_tests.md
+      - Subir reportes: steps/upload_reports.md
+      - Anotar errores en PR: steps/annotate_pr.md
+      - Comentar cobertura: steps/comment_coverage.md
+      - SonarQube Scan: steps/sonarqube.md
+theme:
+  name: material
